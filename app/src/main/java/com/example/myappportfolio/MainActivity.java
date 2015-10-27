@@ -38,34 +38,29 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void capstone(View view){
-        CharSequence text = "I'm Capstone!";
-        toastMaster(text);
-    }
 
     public void spotify(View view){
-        CharSequence text = "Spotify Streamer, Dude!";
-        toastMaster(text);
+        toastMaster("Spotify Streamer, Dude!");
     }
 
     public void scoresApp(View view){
-        CharSequence text = "Scores App.";
-        toastMaster(text);
+        toastMaster("Scores App.");
     }
 
     public void libraryApp(View view){
-        CharSequence text = "Libarary App";
-        toastMaster(text);
+        toastMaster("Libarary App");
     }
 
     public void buildItBigger(View view){
-        CharSequence text = "Build It Bigger";
-        toastMaster(text);
+        toastMaster("Build It Bigger");
     }
 
     public void xyzReader(View view){
-        CharSequence text = "xyz Reader";
-        toastMaster(text);
+        toastMaster("xyz Reader");
+    }
+
+    public void capstone(View view){
+        toastMaster("I'm Capstone!");
     }
 
     private void toastMaster(CharSequence text){
