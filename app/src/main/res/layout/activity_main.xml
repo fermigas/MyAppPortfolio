@@ -26,86 +26,45 @@
         android:layout_marginBottom="30dp" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/PortfolioButtons"
         android:text="@string/spotify"
         android:id="@+id/spotify_btn"
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:height="60sp"
-        android:background="@color/udacity_orange"
-        android:layout_marginBottom="5dp"
         android:onClick="spotify"
         />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/PortfolioButtons"
         android:text="@string/scores_app"
         android:id="@+id/scores_app_btn"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:height="60sp"
-        android:background="@color/udacity_orange"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
         android:onClick="scoresApp"
         />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/PortfolioButtons"
         android:text="@string/library_app"
         android:id="@+id/library_app_btn"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:height="60sp"
-        android:background="@color/udacity_orange"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
         android:onClick="libraryApp"
         />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/PortfolioButtons"
         android:text="@string/build_it_bigger"
         android:id="@+id/build_it_bigger_btn"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:height="60sp"
-        android:background="@color/udacity_orange"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
         android:onClick="buildItBigger"
         />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/PortfolioButtons"
         android:text="@string/xyz_reader"
         android:id="@+id/xyz_reader_btn"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:height="60sp"
-        android:background="@color/udacity_orange"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
         android:onClick="xyzReader"
         />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/PortfolioButtons"
         android:text="@string/capstone"
         android:id="@+id/capstone_btn"
-        android:height="60sp"
         android:background="@color/capstone_wine"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="50dp"
-        android:layout_marginBottom="5dp"
         android:onClick="capstone"
         />
 
