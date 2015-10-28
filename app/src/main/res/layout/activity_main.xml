@@ -1,73 +1,81 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#3e225d7f"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     >
 
-<LinearLayout
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity"
-    android:clickable="true"
-    android:orientation="vertical">
-
-    <TextView
-        android:text="@string/hello_world"
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:textSize="24sp"
-        android:id="@+id/textView"
-        android:layout_marginBottom="30dp" />
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context=".MainActivity"
+        android:clickable="true"
+        android:orientation="vertical">
 
-    <Button
-        style="@style/PortfolioButtons"
-        android:text="@string/spotify"
-        android:id="@+id/spotify_btn"
-        android:onClick="spotify"
-        />
+        <TextView
+            android:text="@string/hello_world"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="24sp"
+            android:id="@+id/textView"
+            android:layout_marginBottom="30dp" />
 
-    <Button
-        style="@style/PortfolioButtons"
-        android:text="@string/scores_app"
-        android:id="@+id/scores_app_btn"
-        android:onClick="scoresApp"
-        />
+        <Button
+            style="@style/PortfolioButtons"
+            android:text="@string/spotify"
+            android:id="@+id/spotify_btn"
+            android:onClick="spotify"
+            />
 
-    <Button
-        style="@style/PortfolioButtons"
-        android:text="@string/library_app"
-        android:id="@+id/library_app_btn"
-        android:onClick="libraryApp"
-        />
+        <Button
+            style="@style/PortfolioButtons"
+            android:text="@string/scores_app"
+            android:id="@+id/scores_app_btn"
+            android:onClick="scoresApp"
+            />
 
-    <Button
-        style="@style/PortfolioButtons"
-        android:text="@string/build_it_bigger"
-        android:id="@+id/build_it_bigger_btn"
-        android:onClick="buildItBigger"
-        />
+        <Button
+            style="@style/PortfolioButtons"
+            android:text="@string/library_app"
+            android:id="@+id/library_app_btn"
+            android:onClick="libraryApp"
+            />
 
-    <Button
-        style="@style/PortfolioButtons"
-        android:text="@string/xyz_reader"
-        android:id="@+id/xyz_reader_btn"
-        android:onClick="xyzReader"
-        />
+        <Button
+            style="@style/PortfolioButtons"
+            android:text="@string/build_it_bigger"
+            android:id="@+id/build_it_bigger_btn"
+            android:onClick="buildItBigger"
+            />
 
-    <Button
-        style="@style/PortfolioButtons"
-        android:text="@string/capstone"
-        android:id="@+id/capstone_btn"
-        android:background="@color/capstone_wine"
-        android:onClick="capstone"
-        />
+        <Button
+            style="@style/PortfolioButtons"
+            android:text="@string/xyz_reader"
+            android:id="@+id/xyz_reader_btn"
+            android:onClick="xyzReader"
+            />
 
-</LinearLayout>
+        <Button
+            style="@style/PortfolioButtons"
+            android:text="@string/capstone"
+            android:id="@+id/capstone_btn"
+            android:background="@color/capstone_wine"
+            android:onClick="capstone"
+            />
+
+    </LinearLayout>
 
 </ScrollView>
+
+</LinearLayout>
